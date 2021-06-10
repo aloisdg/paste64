@@ -1,0 +1,38 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  /* background: linear-gradient(to bottom, #335 30%, #f29 100%); */
+  background: linear-gradient(140deg, #335 30%, #d50072 90%);
+
+  /* background: linear-gradient(141.27deg,#ff904e -4.24%,#ff5982 21.25%,#ec68f4 44.33%,#79e2ff 83.46%); */
+  background-size: 200% 200%;
+  animation: breath 21s ease infinite;
+}
+
+@keyframes breath {
+  0% {
+    background-position: 10% 0%;
+  }
+
+  50% {
+    background-position: 91% 100%;
+  }
+
+  100% {
+    background-position: 10% 0%;
+  }
+}
