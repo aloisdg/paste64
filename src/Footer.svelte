@@ -10,7 +10,7 @@
   /></a>
   by
   <a
-    class="block py-2 transition-colors duration-200 hover:text-purple-600 text-purple-800 ml-1 font-medium"
+    class="block py-2 transition-colors duration-200 hover:text-grey-600 text-grey-800 ml-1 font-medium"
     href="https://aloisdg.netlify.app/"
     title="aloisdg's blog">{author}</a
   >
