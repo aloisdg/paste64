@@ -7,7 +7,7 @@
 <div class="grid grid-cols-1-auto gap-1">
   <div class="overflow-hidden rounded-lg bg-purple-400">
     <pre
-      class="scrollbar-none overflow-x-auto p-6 text-sm leading-snug text-white bg-black bg-opacity-75">
+      class="scrollbar-none overflow-ellipsis overflow-x-auto p-6 text-sm leading-snug text-white bg-black bg-opacity-75">
                   <code>
                       {base64}
                   </code>
