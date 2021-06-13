@@ -5,9 +5,9 @@
 </script>
 
 <div class="grid grid-cols-1-auto gap-1">
-  <div class="overflow-hidden rounded-lg bg-purple-400">
+  <div class="overflow-hidden rounded-lg bg-indigo-700">
     <pre
-      class="scrollbar-none overflow-ellipsis overflow-x-auto p-6 text-sm leading-snug text-white bg-black bg-opacity-75">
+      class="scrollbar-none overflow-ellipsis overflow-x-auto p-6 text-sm leading-snug text-neon-50 bg-neon-900 bg-opacity-75">
                   <code>
                       {base64}
                   </code>
@@ -18,7 +18,7 @@
 
 <style lang="postcss">
 .btn {
-  @apply rounded-lg flex-shrink-0 bg-pink-600 text-white text-base font-semibold py-2 px-4 shadow-md hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2 focus:ring-offset-pink-200;
+  @apply rounded-lg flex-shrink-0 bg-neon-500 text-neon-50 text-base font-semibold py-2 px-4 shadow-md hover:bg-neon-600 focus:outline-none focus:ring-2 focus:ring-neon-500 focus:ring-offset-2 focus:ring-offset-neon-200;
 }
 
 .grid-cols-1-auto {

@@ -20,7 +20,7 @@
   document.onpaste = function (event) {
     const items = (event.clipboardData || event.originalEvent.clipboardData)
       .items;
-    console.log(JSON.stringify(items)); // will give you the mime types
+    // console.log(JSON.stringify(items)); // will give you the mime types
     for (let index in items) {
       var item = items[index];
       if (item.kind === "file") {
