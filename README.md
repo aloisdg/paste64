@@ -20,6 +20,10 @@ TypeScript
 
 Help and feedback is always welcome and pull requests get accepted.
 
+## Media
+
+A quick exchange on [HN](https://news.ycombinator.com/item?id=27487558).
+
 ## License
 
 [MIT](./LICENSE)
